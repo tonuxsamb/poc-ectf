@@ -1,0 +1,10 @@
+# Site statique : aucune commande de build, publication de la racine du dépôt
+[build]
+  publish = "."
+  command = ""
+
+# Toute adresse inconnue renvoie l'application (navigation interne)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
